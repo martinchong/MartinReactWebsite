@@ -1,0 +1,34 @@
+.intro-container {
+  margin-bottom: 100px;
+  
+  &__name-highlight {
+    color: #6495ED;
+  }
+
+  &--about-me {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__my-story {
+    padding-right: 24px;
+
+    a {
+      color: #6495ED;
+      text-decoration: none;
+    }
+  }
+
+  &__my-image{
+    background-image: url(../assets/me.jpg);
+    background-position: center;
+    background-size: 200px;
+    border: 4px solid white;
+    border-radius: 200px;
+    display: flex;
+
+    &:hover{
+      background-image: url(../assets/me2.jpg);
+    }
+  }
+}

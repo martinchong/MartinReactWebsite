@@ -1,0 +1,31 @@
+.appbar {
+  border-bottom: 1px solid white;
+
+  &__title {
+    cursor: pointer;
+
+    &--highlight {
+      color: #6495ED;
+    }
+  }
+
+  &__toolbar {
+    justify-content: space-between;
+  }
+
+  &__nav {
+    display: flex;
+
+    p {
+      margin: 0 24px;
+    }
+  }
+
+  &__socials {
+    display: flex;
+
+    svg {
+      margin: 0 4px;
+    }
+  }
+}
