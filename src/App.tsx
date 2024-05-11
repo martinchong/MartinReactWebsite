@@ -3,6 +3,7 @@ import { createTheme, ThemeProvider } from '@mui/material';
 import Appbar from './components/Appbar';
 import Intro from './components/Intro';
 import Works from './components/Works';
+import Footer from './components/Footer';
 import './App.scss';
 
 const theme = createTheme({
@@ -37,6 +38,7 @@ const App = () => {
       <div className="main">
         <Intro />
         <Works />
+        <Footer />
       </div>
     </ThemeProvider>
   );

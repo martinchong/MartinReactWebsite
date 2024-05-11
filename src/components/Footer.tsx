@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <Container>
       <div className="footer">
-        <Typography color='primary' className='footer__text'>2024 <span className='intro-container__name-highlight'>Martin</span> Chong</Typography>
+        <Typography color='primary' className='footer__text'>© 2024 <span className='intro-container__name-highlight'>Martin</span> Chong</Typography>
       </div>
     </Container>
   );
