@@ -32,7 +32,7 @@ const Works = () => {
   return (
     <Container>
       <div className="works-container">
-        <Typography variant='h1' color='primary' className='works-container__title'><span className='intro-container__name-highlight'>Some</span> of my Work (just some...)</Typography>
+        <Typography variant='h1' color='primary' className='works-container__title'>Work <span className='intro-container__name-highlight'>&</span> Projects</Typography>
         {allWork.map((work) => {
           return <Work key={work.name} name={work.name} description={work.description} image={work.image} />
         } )}

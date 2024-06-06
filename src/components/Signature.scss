@@ -1,3 +1,5 @@
+@use 'Color.scss';
+
 .signature-container {
   width: 500px;
   height: 100%;
@@ -10,7 +12,7 @@
   path {
     animation: sign 2s ease-in forwards;
     animation-delay: 2s;
-    stroke: #6495ED;
+    stroke: Color.$primary;
     stroke-dasharray: 2083;
     stroke-dashoffset: 2083;
     stroke-width: 5px;

@@ -1,8 +1,10 @@
+@use 'Color.scss';
+
 .intro-container {
   margin-bottom: 200px;
   
   &__name-highlight {
-    color: #6495ED;
+    color: Color.$primary;
   }
 
   &--about-me {
@@ -11,10 +13,10 @@
   }
 
   &__my-story {
-    padding-right: 24px;
+    padding-right: 80px;
 
     a {
-      color: #6495ED;
+      color: Color.$primary;
       text-decoration: none;
     }
   }
@@ -23,12 +25,12 @@
     background-image: url(../assets/me.jpg);
     background-position: center;
     background-size: 200px;
-    border: 4px solid white;
+    border: 4px solid Color.$primary;
     border-radius: 200px;
     display: flex;
 
     &:hover{
-      background-image: url(../assets/me2.jpg);
+      background-image: url(../assets/me3.jpg);
     }
   }
 }

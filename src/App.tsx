@@ -9,13 +9,14 @@ import './App.scss';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#FFFFFF',
+      main: '#000000',
     },
   },
   typography: {
     h1: {
-      fontFamily: '"Jersey 10"',
+      fontFamily: 'Figtree',
       fontSize: '5rem',
+      fontWeight: '600',
     },
     fontFamily: 'Figtree',
   },
@@ -23,7 +24,7 @@ const theme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         colorPrimary: {
-          backgroundColor: "#282c34",
+          backgroundColor: "#FFFFFF",
         }
       }
     }

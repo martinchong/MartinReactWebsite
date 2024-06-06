@@ -1,18 +1,27 @@
+@use 'Color.scss';
+
 .work-sample {
   display: flex;
 
   &__name {
     text-decoration: underline;
-    text-decoration-color: #6495ED;
+    text-decoration-color: Color.$primary;
   }
 
   &__text {
     margin: 48px;
   }
 
+  &__image-container {
+    display: flex;
+    justify-content: center;
+  }
+
   &__image {
     border-radius: 20px;
     margin: 0 48px;
     max-height: 200px;
+    object-fit: contain;
+    width: 100%;
   }
 }

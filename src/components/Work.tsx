@@ -17,7 +17,7 @@ const Work = ({name, description, image}: IWork) => {
         <Typography variant='h3' color='primary' className='work-sample__name'>{name}</Typography>
         <Typography color='primary' className='work-sample__descripton'>{description}</Typography>
       </div>
-      {image && <img className='work-sample__image' src={image} alt={`${name}`} />}
+      {image && <div className='work-sample__image-container'><img className='work-sample__image' src={image} alt={`${name}`} /></div>}
     </div>
   );
 }

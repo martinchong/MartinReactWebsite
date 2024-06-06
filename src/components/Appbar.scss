@@ -1,11 +1,13 @@
+@use './Color.scss';
+
 .appbar {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #000000;
 
   &__title {
     cursor: pointer;
 
     &--highlight {
-      color: #6495ED;
+      color: Color.$primary;
     }
   }
 
